@@ -15,6 +15,11 @@
     <!-- Bootstrap CSS -->
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script>
+      if (("www.ubercny.com" === window.location.host) &&
+          (window.location.protocol !== "https:"))
+        window.location.protocol = "https";
+    </script>
     <style>
       body {
         min-width: 320px;
