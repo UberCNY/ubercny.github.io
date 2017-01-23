@@ -147,6 +147,7 @@
       ga('send', 'pageview');
       function handleClick(label) {
         ga('send', { hitType: 'event', eventCategory: 'App', eventAction: 'download', eventLabel: label });
+        return true;
       }
     </script>
   </head>
