@@ -30,22 +30,19 @@
         width: 160px;
         height: 160px;
       }
-      .background {
+      .cover {
         height: 413px;
         background-position: center top;
         background-size: 1600px auto;
         background-repeat: no-repeat;
         background-image: url('./img/scene@2x.png');
       }
-      @media (max-width: 540px) {
-        .background { height: 308px; background-size: 1200px auto; }
-      }
-      @media (max-width: 420px) {
-        .background { height: 245px; background-size: 960px auto; }
-      }
       a.unhyper, a.unhyper:hover, a.unhyper:focus {
         color: #000;
         text-decoration: none;
+      }
+      a.unhyper-white, a.unhyper-white:hover, a.unhyper-white:focus {
+        color: #fff;
       }
       .slogan {
         display: inline-block;
@@ -53,8 +50,15 @@
       }
       .promocode {
         display: inline-block;
+        color: #ffdf99;
         background-color: #7f0b25;
         width: 240px;
+      }
+      @media (max-width: 540px) {
+        .cover { height: 308px; background-size: 1200px auto; }
+      }
+      @media (max-width: 420px) {
+        .cover { height: 245px; background-size: 960px auto; }
       }
     </style>
   </head>
@@ -68,7 +72,7 @@
           <a class="unhyper" href="#">中</a> / <a class="unhyper" href="#">Eng</a></div>
       </div>
     </div>
-    <div class="background"></div>
+    <div class="cover"></div>
     <div style="background-color:#c93c39;color:#fff;min-height:1000px;">
       <div class="container">
         <div class="row">
@@ -80,6 +84,25 @@
           </div>
         </div>
       </div>
+    </div>
+    <div style="background-color:#000;color:#fff;font-size:14px;">
+      <div class="container">
+        <div class="row text-center" style="border-bottom: #333 1px solid;">
+          <div class="col col-12 py-3" style="line-height:48px;">
+            <a href="https://7336.tlnk.io/serve?action=click&publisher_id=200585&site_id=17688&my_keyword=app_control_ios" target="_blank"><img src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.2.19/d1a3f4spazzrp4.cloudfront.net/images/global/app-store-8c177b28a0.svg" alt=""></a>
+            <a href="https://7336.tlnk.io/serve?action=click&publisher_id=200585&site_id=26744&my_keyword=app_control_android" target="_blank"><img style="height:40px;" src="./img/googleplay@2x.png" alt=""></a>
+            <a href="https://microsoft.com/en-us/store/apps/uber/9wzdncrfhxrd?source=uber-com" target="_blank"><img style="height:38px;" src="https://assets.windowsphone.com/0100c7e5-1455-40bc-a351-b77d2801ad5a/English_get-it-from-MS_InvariantCulture_Default.png" alt=""></a>
+          </div>
+        </div>
+        <div class="row py-4">
+          <div class="col col-12 col-md-4 text-center">© 2017 Uber Technologies Inc.</div>
+          <div class="col col-12 col-md-8 text-center">
+            <a class="unhyper-white mr-3" href="https://uber.com" target="_blank">關於Uber</a>
+            <a class="unhyper-white mr-3" href="terms" target="_self">條款及細則</a>
+            <a class="unhyper-white mr-3" href="https://fb.com/uber" target="_blank">Facebook</a>
+            <a class="unhyper-white" href="https://instagram.com/uber_hk" target="_blank">Instagram</a>
+          </div>
+        </div>
     </div>
   </body>
 </html>
