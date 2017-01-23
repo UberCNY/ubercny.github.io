@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <meta name="google-site-verification" content="b9wTtHPbQL_Z1UfDYa4O3HyEyxS_8TJN5Mo5qGds9AI" />
 
     <title>Uber Hong Kong | Chinese New Year 2017</title>
     <meta name="description" content="Happy Chinese New Year! We would like to celebrate this joyful festival by giving out HK$100 discount to new riders!">
 
-    <link rel="canonical" href="https://ubercny.com" />
+    <link rel="canonical" href="https://www.ubercny.com" />
     <!-- Bootstrap CSS -->
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -23,6 +22,7 @@
     <style>
       body {
         min-width: 320px;
+        background-color: #f4c751;
         background-image: url('../img/pattern@2x.png');
         background-size: 39px 21px;
       }
@@ -37,12 +37,15 @@
         background-repeat: no-repeat;
         background-image: url('../img/scene@2x.png');
       }
-      a.unhyper, a.unhyper:hover, a.unhyper:focus {
+      .unhyper, .unhyper:hover, .unhyper:focus {
         color: #000;
         text-decoration: none;
       }
-      a.unhyper-white, a.unhyper-white:hover, a.unhyper-white:focus {
+      .unhyper-white, .unhyper-white:hover, .unhyper-white:focus {
         color: #fff;
+      }
+      .unhyper-red, .unhyper-red:hover, .unhyper-red:focus {
+        color: #ffbdbb;
       }
       .slogan {
         display: inline-block;
@@ -53,6 +56,74 @@
         color: #ffdf99;
         background-color: #7f0b25;
         width: 240px;
+      }
+      .mockup {
+        display: inline-block;
+        width: 219px;
+        height: 442px;
+        padding-top: 45px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 45px;
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url('../img/phone-outline@2x.png');
+      }
+      .screenshot {
+        width: 100%;
+        border: #fff 1px solid;
+      }
+      .instruction-top {
+        position: relative;
+        top: -345px;
+        height: 100px;
+        padding: 10px;
+        text-align: left;
+        line-height: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      .instruction {
+        position: relative;
+        top: -120px;
+        height: 120px;
+        padding: 10px;
+        text-align: left;
+        line-height: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      .cta-container {
+        height: 80px;
+        background-color: #7f0b25;
+        background-image: url('../img/pattern2@2x.png');
+        background-size: 80px 80px;
+      }
+      .intro-container {
+        color: #fff;
+        font-size: 18px;
+        background-color: #7f0b25;
+      }
+      .cta {
+        padding: 15px 60px;
+        background-color: #fcf8ed;
+        font-weight: bold;
+        font-size: 28px;
+      }
+      .cta, .cta:hover, .cta:focus {
+        color: #c93c39;
+        text-decoration: none;
+      }
+      .wish {
+        color: #ffe9b8;
+      }
+      .terms {
+        font-size: 14px;
+      }
+      .terms {
+        padding-left: 20px;
+      }
+      .terms li {
+        padding-left: 0;
       }
       @media (max-width: 540px) {
         .cover { height: 308px; background-size: 1200px auto; }
@@ -69,27 +140,131 @@
           <img class="logo" alt="" src="../img/bit@2x.png" />
         </div>
         <div class="col col-6 text-right mt-5 pr-5" style="font-size:18px;color:#000;text-decoration">
-          <a class="unhyper" href="#">中</a> / <a class="unhyper" href="#">Eng</a></div>
+          <a class="unhyper" href="../">中</a> / <a class="unhyper" href="/">Eng</a></div>
       </div>
     </div>
     <div class="cover"></div>
-    <div style="background-color:#c93c39;color:#fff;min-height:1000px;">
+    <div style="background-color:#c93c39;color:#fff;">
       <div class="container">
         <div class="row">
           <div class="col col-12 text-center py-5">
-            <h5 class="slogan px-3 mb-4 text-center">唔駛再等啦，年廿七就有利市收！今個農曆新年，如果你仲未係 Uber 乘客嘅話，我哋會送你一程 Hong Kong$100 免費車程，畀你體驗最安全、方便又舒適嘅乘車服務！<h5>
+            <h5 class="slogan px-3 mb-4 text-center">唔駛再等啦，年廿七就有利是收！今個農曆新年，如果你仲未係 Uber 乘客嘅話，我哋會送你一程 HK$100 免費車程，俾你體驗最安全、方便又舒適嘅乘車服務！<h5>
             <h4>由即日起，只要輸入優惠碼</h4>
             <h4 class="promocode mt-2 mb-3 py-2 text-center">LUCKY100</h4>
-            <h4>即可享一程免費車程（最高達HK$100)！</h4>
+            <h4>即可享一程免費車程（最高達HK$100）！</h4>
           </div>
         </div>
       </div>
     </div>
-    <div style="background-color:#bd3532;color:#fff;">
+    <div style="background-color:#ab2a27;color:#fff;padding-top:60px;padding-bottom:60px;">
       <div class="container">
-        <div class="row text-center" style="border-bottom: #333 1px solid;">
-          <div class="col col-12 py-3">
-            <p>點玩法？首先跟以下幾個簡單步驟註冊。</p>
+        <div class="row text-center">
+          <div class="col col-12 py">
+            <h5 class="mb-5">點玩法？首先跟以下幾個簡單步驟註冊。</h5>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-4 col-lg-3 push-lg-1 col-xl-4 push-xl-1 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_appstore.png" />
+              <div class="instruction">
+                <h5>Step 1</h5>
+                <p>喺 <a class="unhyper-red" href="https://play.google.com/store/apps/details?id=com.ubercab" target="_blank">Google Play</a> 商店或 <a class="unhyper-red" href="https://itunes.apple.com/en/app/uber/id368677368?mt=8" target="_blank">App Store</a> 下載 Uber app</p>
+                </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-4 col-lg-4 push-lg-1 col-xl-4 push-xl-0 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_phone.png" />
+              <div class="instruction">
+                <h5>Step 2</h5>
+                <p>輸入電話號碼, 同埋設定個人資料</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-4  col-lg-3 push-lg-1 col-xl-4 push-xl-0 pull-xl-1 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_paymethod.png" />
+              <div class="instruction">
+                <h5>Step 3</h5>
+                <p>設定付款方式</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12">
+            <h4>恭喜你成功註冊成為 Uber 用戶！</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color:#c93c39;color:#fff;padding-top:60px;padding-bottom:60px;">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col col-12 py">
+            <h5 class="mb-5">註冊完成後可立即領取利是！</h5>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-5 push-md-1 col-lg-3 push-lg-0 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_menu.png" />
+              <div class="instruction">
+                <h5>Step 1</h5>
+                <p>喺 App 左上角選單中選擇「付款設定」</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-5 push-md-1 col-lg-3 push-lg-0 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_addpromo.png" />
+              <div class="instruction-top">
+                <h5>Step 2</h5>
+                <p>輕按「新增優惠代碼」</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-5 push-md-1 col-lg-3 push-lg-0 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_promo.png" />
+              <div class="instruction">
+                <h5>Step 3</h5>
+                <p>輸入 LUCKY100 並按「新增」</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-5 push-md-1 col-lg-3 push-lg-0 py">
+            <div class="mockup">
+              <img class="screenshot" src="../img/screenshots_congratespromo.png" />
+              <div class="instruction">
+                <h5>Step 4</h5>
+                <p>你已經成功領取 HK$100 利是並可立即使用乘車優惠！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-12 text-center px-5 pb-3">
+            <h5 class="mt-2 mb-4">仲等咩？</h5>
+            <p><a class="cta" href="http://t.uber.com/open_app" target="_blank">立即乘搭</a></p>
+          </div>
+          <div class="col col-12 text-center">
+            <h3 class="wish text-center mt-4">Uber 祝你雞年行大運！一路順風！</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cta-container"></div>
+    <div class="intro-container pt-4 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-lg-8 px-5 mb-3">
+            <h5>關於Uber</h5>
+            <p>Uber 係手機叫車 App，喺美國、歐洲、亞太地區等全球超過 68 個國家、500多座城市提供務。你只需輕按叫車按鈕，短短幾分鐘就可以享有專車嘅接送服務，帶你去你想去嘅地方。</p>
+          </div>
+          <div class="col col-12 col-lg-4 px-5 mb-4">
+            <h6>優惠受條款及細則約束：</h6>
+            <ul class="terms">
+              <li>只限首次登記用戶</li>
+              <li>優惠只適用於 uberX 、 UberBLACK 及 7-seater</li>
+              <li>此優惠期限由即日起至2017年2月1日</li>
+              <li>此優惠不得與其他優惠同時使用</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -98,17 +273,16 @@
       <div class="container">
         <div class="row text-center" style="border-bottom: #333 1px solid;">
           <div class="col col-12 py-3" style="line-height:48px;">
-            <a href="https://7336.tlnk.io/serve?action=click&publisher_id=200585&site_id=17688&my_keyword=app_control_ios" target="_blank"><img src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.2.19/d1a3f4spazzrp4.cloudfront.net/images/global/app-store-8c177b28a0.svg" alt=""></a>
+            <a href="https://7336.tlnk.io/serve?action=click&publisher_id=200585&site_id=17688&my_keyword=app_control_ios" target="_blank"><img src="../img/appstore@2x.svg" alt=""></a>
             <a href="https://7336.tlnk.io/serve?action=click&publisher_id=200585&site_id=26744&my_keyword=app_control_android" target="_blank"><img style="height:40px;" src="../img/googleplay@2x.png" alt=""></a>
-            <a href="https://microsoft.com/en-us/store/apps/uber/9wzdncrfhxrd?source=uber-com" target="_blank"><img style="height:38px;" src="https://assets.windowsphone.com/0100c7e5-1455-40bc-a351-b77d2801ad5a/English_get-it-from-MS_InvariantCulture_Default.png" alt=""></a>
+            <a href="https://microsoft.com/en-us/store/apps/uber/9wzdncrfhxrd?source=uber-com" target="_blank"><img style="height:38px;" src="../img/msstore@2x.png" alt=""></a>
           </div>
         </div>
         <div class="row py-4">
           <div class="col col-12 col-md-4 text-center">© 2017 Uber Technologies Inc.</div>
           <div class="col col-12 col-md-8 text-center">
-            <a class="unhyper-white mr-3" href="https://uber.com" target="_blank">關於Uber</a>
-            <a class="unhyper-white mr-3" href="terms" target="_self">條款及細則</a>
-            <a class="unhyper-white mr-3" href="https://fb.com/uber" target="_blank">Facebook</a>
+            <a class="unhyper-white mr-4" href="https://uber.com" target="_blank">關於Uber</a>
+            <a class="unhyper-white mr-4" href="https://fb.com/uber" target="_blank">Facebook</a>
             <a class="unhyper-white" href="https://instagram.com/uber_hk" target="_blank">Instagram</a>
           </div>
         </div>
